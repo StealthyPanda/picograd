@@ -1,10 +1,5 @@
-<center>
-<h1><center>picograd</center></h1>
-<!-- <h3>yet another autodiff engine</h3> -->
-<center>Yet another autodiff engine</center>
-
----
-</center>
+<h1 align='center'>picograd</h1>
+<p align='center'>Yet another autodiff engine</p>
 
 ![image](./image.png)
 
