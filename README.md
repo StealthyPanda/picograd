@@ -1,7 +1,7 @@
 <center>
-<h1>picograd</h1>
+<h1><center>picograd</center></h1>
 <!-- <h3>yet another autodiff engine</h3> -->
-Yet another autodiff engine
+<center>Yet another autodiff engine</center>
 
 ---
 </center>
