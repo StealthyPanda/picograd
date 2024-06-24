@@ -9,7 +9,7 @@ This is just another autodiff engine in python. There are many like it, but this
 
 On a real note, inspired by the infamous [micrograd]() and the countless stripped-down versions of it, I wanted to make the smallest possible library for autodiff. This one is different because it __supports tensors and its operations natively__, rather than working on scalars alone.
 
-In terms of performance, of all the autodiff libraries out there, this is definitely one of them.
+In terms of performance, of all the autodiff libraries out there, this is definitely one of them (I might add GPU and XLA support in the future IDK).
 
 The whole thing is in one file, [pico.py](./pico.py) ~ 300 lines, most of which is comments and helper functions. The actual `tensor` class is ~ 80 lines in total, including comments.
 
