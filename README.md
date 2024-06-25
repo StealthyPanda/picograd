@@ -90,4 +90,6 @@ print(c.grad)
 ```
 
 ---
+_P.S. If you do end up using this for anything serious, please let me know!_
 _red panda image from [wikipedia](https://en.wikipedia.org/wiki/Red_panda)_
+
