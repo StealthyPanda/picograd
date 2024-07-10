@@ -65,8 +65,8 @@ from pico import *
 c = tensor(grad = True)
 
 #normally generated:
-x = gaussian(5, 7).track()
-y = gaussian(7, 9).track()
+x = rand(5, 7).track()
+y = rand(7, 9).track()
 
 
 # z is now automatically tracked
@@ -75,8 +75,8 @@ ctile = tile(tile(c, 9), 5) # () -> (5, 9)
 z = z + ctile
 
 #calculate some loss
-target = gaussian(5, 9)
-loss = ((target - z) ** 2) / (5 * 9)
+target = rand(5, 9)
+loss = sum(sum(((target - z) ** 2) / (5 * 9), 0))
 
 #flow the gradients back
 loss.reverse()
