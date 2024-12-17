@@ -28,6 +28,12 @@ pip install git+https://github.com/StealthyPanda/picograd.git
 ---
 The code in pico.py is quite simple and self-explanatory. It has a small surface area, and is very similar to pytorch in usage.
 
+
+Import the package:
+```python
+from picograd import *
+```
+
 Similar to literally any other library, the basic data type in pico is tensor:
 
 ```python
