@@ -73,7 +73,7 @@ print(y.grad) # [[1], [2], [3]]
 A simple demo of workflow in finding gradients:
 ```python
 
-from pico import *
+from picograd import *
 
 #simple tensors:
 c = tensor(grad = True)
