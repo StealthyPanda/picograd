@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "picograd"
+version = "0.1.0"
+description = "Yet another Autodiff engine"
+authors = ["StealthyPanda <shaikm259@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

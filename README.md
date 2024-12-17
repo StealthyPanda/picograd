@@ -15,6 +15,14 @@ The whole thing is in one file, [pico.py](./pico.py) ~ 300 lines, most of which 
 
 The library is incredibly lightweight, easy to understand, and has enough as a base to extend it yourself for your own use. Go forth and extend!
 
+### Installation
+
+Install using pip:
+
+```bash
+pip install git+https://github.com/StealthyPanda/picograd.git
+```
+
 
 ### Usage
 ---

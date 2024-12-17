@@ -1,4 +1,4 @@
-from pico import *
+from picograd.pico import *
 import numpy as np
 import pickle
 import matplotlib.pyplot as plt
