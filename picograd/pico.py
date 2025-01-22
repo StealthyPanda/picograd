@@ -141,7 +141,8 @@ class tensor:
         Starts tracking this variable for a gradient. You want to call this (if not already set while creating this tensor)
         for model weights etc. Returns this tensor back.
         '''
-        self.grad = np.zeros_like(self.value, dtype=_def_dtype)
+        if self.grad is None:
+            self.grad = np.zeros_like(self.value, dtype=_def_dtype)
         return self
     
     def untrack(self) -> object:
